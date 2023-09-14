@@ -119,10 +119,10 @@ const useStyle = makeStyles((theme) => ({
     fontFamily: "Roboto Condensed",
     position: "absolute",
     right: "50px",
-    bottom: "20px",
+    bottom: "10px",
     color: "white",
     [theme.breakpoints.down("sm")]: {
-      right: "100px",
+      right: "80px",
       bottom: "0px",
     },
   },
