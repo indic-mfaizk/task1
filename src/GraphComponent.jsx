@@ -66,10 +66,12 @@ const useStyle = makeStyles((theme) => ({
     alignItems: "flex-end",
     justifyContent: "center",
     width: "180px",
+    marginRight: "50px",
     [theme.breakpoints.down("sm")]: {
       height: "50%",
       width: "180px",
       marginTop: "50px",
+      marginRight: "0px",
     },
   },
   ChipsContainer: {
@@ -80,9 +82,9 @@ const useStyle = makeStyles((theme) => ({
     borderRadius: "50px",
     padding: "0px 10px",
     gap: "5px",
-    [theme.breakpoints.down("sm")]: {
-      padding: "0px 10px",
-    },
+    // [theme.breakpoints.down("sm")]: {
+    //   padding: "0px 10px",
+    // },
   },
 
   chipsTitle: {
